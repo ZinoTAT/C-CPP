@@ -2,6 +2,7 @@ int a;
 int f1(char,int x,float);
 int f2(char s,int x,int y)
 {
+	char arr[5]="asd";
 	a=x*11;
 	while(a>1)
 	{
@@ -26,11 +27,10 @@ int f1(char x,int i,float f)
 		return 1;
 	}
 	else return 0;
-	s=1;
 }
 int main()
 {
 	float f=1.55;
 	int a=2;
-	a+=f2('x',a,f)*(f1('s',1,1.5)+7;
+	a+=f2('x',a,f)*(f1('s',1,1.5)+7);
 }
